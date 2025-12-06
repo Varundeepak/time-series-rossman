@@ -5,7 +5,7 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 - **Objective:** Forecast sales for Rossmann drugstores and analyze the impact of promotions and holidays 
 - **Techniques:** ARIMA, SARIMA, Prophet (with regressors)  
 - **Tools:** Python, Pandas, Statsmodels, Prophet, Matplotlib  
@@ -14,7 +14,7 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 🔑 Workflow
+## Workflow
 1. **Data Preparation**
    - Merged `train.csv` and `store.csv`  
    - Removed closed days (`Open=0`) and zero-sales days  
@@ -37,7 +37,7 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 📈 Results
+## Results
 
 | Model      | RMSE  | MAE   | MAPE   | RMSPE  |
 |------------|-------|-------|--------|--------|
@@ -51,7 +51,7 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - Sales trend is **declining** between 2013–2015  
 - **Strong yearly seasonality**: sales spike in December/January  
 - **Weekly pattern**: weekends much stronger than midweek  
@@ -60,13 +60,13 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Language:** Python  
 - **Libraries:** pandas, numpy, matplotlib, statsmodels, prophet, scikit-learn  
 - **Environment:** Jupyter Notebook  
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Extend beyond Store 1 → multi-store modeling 
 - Deploy forecasts with **Tableau dashboard** or a simple **Flask/Streamlit app**  
 - Explore advanced models (XGBoost, DeepAR, LSTMs) 
