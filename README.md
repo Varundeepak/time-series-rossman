@@ -73,5 +73,5 @@ It demonstrates the data science workflow: **EDA → Modeling (ARIMA, SARIMA, Pr
 
 ---
 
-## 📌 About
+## About
 This project was built as part of my **Data Science portfolio** to demonstrate applied time series forecasting, model evaluation, and business insights communication
